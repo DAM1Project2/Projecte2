@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <link href="Imatges/hqdefault.jpg" type="text/css" rel="icon" />
+    <title>Llavors</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+
+
+</head>
+
+<body>
+    <div class="all">
+        <h1>Mr.Seed</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="consultallavors.php">Consulta de llavors</a></li>
+                <li><a href="gestiollavors.html">Gestió de llavors</a></li>
+            </ul>
+        </nav>
+        <div class="inici">
+            <h2>Gestió de llavors</h2>
+            <div class="inserirdades">
+                <form class="formdades" action="insertarinfo.php" method="post">
+
+                    <label for="NomFamilia">Familia:</label>
+                    <input type="text" id="NomFamilia" name="nomfamilia" required="required"><br>
+                    <label for="NomVarietat">Varietat:</label>
+                    <input type="text" id="NomVarietat" name="nomvarietat" required="required"><br>
+                    <label for="NomPlanta">Planta:</label>
+                    <input type="text" id="NomPlanta" name="nomplanta" required="required"><br>
+                    <label for="NumStock">Quantitat:</label>
+                    <input type="number" id="NumStock" name="numstock" required="required"><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <h3>DAM1 (Projecte2)</h3>
+        </footer>
+    </div>
+</body>
+
+</html>
