@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <link href="Imatges/hqdefault.jpg" type="text/css" rel="icon" />
+    <title>Llavors</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+
+
+</head>
+
+<body>
+    <div class="all">
+        <h1>Mr.Seed</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="consultallavors.php">Consulta de llavors</a></li>
+                <li><a href="gestiollavors.html">Gestió de llavors</a></li>
+            </ul>
+        </nav>
+        <div class="inici">
+            <h2>Benvinguts</h2>
+            <div class="exp1">
+                <p>A diferència dels animals, les plantes estan limitades en la seva habilitat de buscar les condicions favorables per a la vida i el creixement. Per tant, han evolucionat de molt diverses formes per propagar-se i augmentar la població a través de les llavors.</p>
+            </div>
+            <div class="exp2">
+                <p>Una llavor ha d'arribar a la localització adequada en el moment òptim de germinació. Aquestes propietats que fomenten la producció de la següent generació és possible que estiguin més relacionades amb els fruits que amb les mateixes llavors, ja que la funció típica de la llavor és la de servir de mecanisme retardant, permetent suspendre el creixement si les condicions no són favorables o donar el temps necessari per a la seva dispersió. Cada espècie assoleix el seu objectiu d'una forma diferent: produint gran quantitat de llavors, embolicant les llavors en dures capes que es van estovant amb les pluges i el fred hivernal per germinar.</p>
+            </div>
+            <div class="exp3">
+                <p>Algunes llavors són comestibles, principalment les de la fruita seca.</p>
+            </div>
+        </div>
+<!--Declarem la caixa amb les fotos i el video-->
+        <div class="caixafotos">
+            <img class="arbre" src="./Imatges/arbre.jpg" alt="arbre">
+            <video class="videoarbre" src="./Videos/la-germinacion-de-semillas-ea.mp4" controls></video>
+            <img class="arbre2" src="./Imatges/fulla.jpg" alt="fulla">
+        </div>
+        <div class="articles">
+<!--Declarem els links-->
+            <div class="links">
+                <div class="link1"><a target="_blank" href="https://es.wikipedia.org/wiki/Semilla">Llavors</a></div>
+                <div class="link1"><a target="_blank" href="https://ca.wikipedia.org/wiki/Germinaci%C3%B3">Germinació de les llavors</a></div>
+                <div class="link1"><a target="_blank" href="https://ca.wikipedia.org/wiki/Dispersi%C3%B3_de_les_llavors">Dispersió de les llavors</a></div>
+                <div class="link1"><a target="_blank" href="https://ca.wikipedia.org/wiki/Fruit_de_llavor">Fruit de llavor</a></div>
+                <div class="link1"><a target="_blank" href="https://ca.wikipedia.org/wiki/Dip%C3%B2sit_de_llavors">Dipòsit de llavors</a></div>
+            </div>
+<!--Declarem el slideshow-->
+            <div class="slideshow">
+                <div class="SlideshowAnimat"><img src="./Imatges/cyclamen.jpg" alt="flors"></div>
+                <div class="SlideshowAnimat"><img src="./Imatges/Landspace-Colombia-938x625.jpg" alt="paissatge"></div>
+                <div class="SlideshowAnimat"><img src="./Imatges/funny-owls-938x625.jpg" alt="paissatge"></div>
+            </div>
+<!--Utilitzem el script per a poder animar el slideshow.-->
+            <script>
+                var slideIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("SlideshowAnimat");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) {
+                        slideIndex = 1
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000);
+                }
+
+            </script>
+        </div>
+        <footer>
+            <h3>DAM1 (Projecte2)</h3>
+        </footer>
+    </div>
+</body>
+
+</html>

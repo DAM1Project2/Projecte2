@@ -1,0 +1,316 @@
+/*Apliquem el tipus de font, el padding i el margin a totes les pagines.*/
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*Redium lleugerament l'amplada de la nostra web per a que sigui visible en tots els monitors.*/
+.all {
+    width: 96%;
+    margin: 0 auto;
+}
+
+/*Utilitzem una imatge de fons.*/
+body {
+    background-image: url(../Imatges/maize-bank.png);
+    margin: 25px;
+}
+/*Donem un marge a la nostra barra de navegació*/
+nav {
+    margin: 10px;
+}
+/*Fem que tot el text sigui amb majucules, en el menú*/
+nav a {
+    text-transform: uppercase;
+}
+/*Declarem un div d'inici amb els seus estils*/
+.inici {
+    border: 4px solid white;
+    border-radius: 35px;
+    margin: 20px 0 20px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+/*Declarem un div d'inici per la pagina de la entrada de dades amb els seus estils*/
+.inicientrada {
+    border: 4px solid white;
+    border-radius: 35px;
+    margin: 20px 0 20px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/*Donem estils al text de l'entrada de dades*/
+.inicientrada p {
+    border: 4px solid white;
+    border-radius: 35px;
+    margin: 20px 0 20px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/*Declarem un estil general al títol de la web.*/
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+/*Declarem un estil general al segon títol de la web.*/
+h2 {
+    text-transform: uppercase;
+}
+/*Declarem un estil per al div de la consulta de la web.*/
+.consulta {
+    border-radius: 0 0 30px 30px;
+    padding: 10px;
+    margin-bottom:5px;
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+th {
+    background-color: #20a866;
+    border: 1px solid #066633;
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+th:hover {
+    background-color: #066633;
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+th a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+th a i {
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.4);
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+td {
+    padding: 10px;
+    color: #636363;
+    border: 1px solid #dddfe1;
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+tr {
+    background-color: #ffffff;
+}
+/*Declarem un estil general per a totes les taules de la web.*/
+tr .highlight {
+    background-color: #f9fafb;
+}
+/*Donem un estil al article del index.*/
+.exp1 {
+    margin: 15px 0 15px 0;
+}
+/*Donem un estil al inserir les dades*/
+.inserirdades {
+    padding: 10px;
+}
+/*Donem un estil pel formulari de inserir informació.*/
+.formdades {
+    border: 4px solid white;
+    border-radius: 35px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(109 255 104 / 20%);
+    display: flex;
+}
+/*Donem un estil al formulari de cerca, en la consulta.*/
+.formcerca{
+    height:20px;
+    
+}
+/*Donem un estil al formulari de cerca, en la consulta.*/
+.cerca {
+    height: 24px;
+}
+/*Donem un estil al formulari de inserir informació , en la gestió de llavors.*/
+.etiquetes {
+    width: 20%;
+}
+/*Donem un estil al formulari de inserir informació , en la gestió de llavors.*/
+.entrades {
+    width: 50%;
+}
+/*Donem un estil al formulari de inserir informació , en la gestió de llavors.*/
+.entrades input {
+    width: 100%;
+}
+/*Donem un estil al formulari de buscar informació , en la consulta de llavors.*/
+#Buscar {
+    width: 50px;
+    border-radius: 5px;
+    background-color: seagreen;
+}
+
+/*Donem un estil al formulari de inserir informació , en la gestió de llavors.*/
+#Enviar {
+    margin: 15% auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+/*Donem un estil al formulari de inserir informació , en la gestió de llavors.*/
+.boto {
+    width: 20%;
+    margin-left: 5%;
+}
+/*Declarem un estil de text per a la web.*/
+.exp1 p {
+    font-size: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 20px 0px;
+}
+/*Declarem un estil de text per a la web.*/
+.exp2 {
+    margin: 0 0 20px 0;
+}
+/*Declarem un estil de text per a la web.*/
+.exp2 p {
+    font-size: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 20px 0px;
+}
+/*Declarem un estil de text per a la web.*/
+.exp3 {
+    margin-bottom: 10px;
+}
+/*Declarem un estil de text per a la web.*/
+.exp3 p {
+    font-size: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 20px 0px 40px 40px;
+}
+/*Declarem un estil per a la navegació de la web.*/
+ul li {
+    display: inline;
+    padding: 10px;
+    border: 3px solid green;
+    border-radius: 0px 20px;
+    background-color: white;
+}
+/*Declarem un estil per als links de la web*/
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*Declarem un estil per els titols de la web*/
+h2 {
+    background-color: mediumaquamarine;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 5px solid white;
+    border-radius: 30px 30px 0px 0px;
+    text-align: center;
+}
+/*Declarem un estil per a les fotos web*/
+.caixafotos {
+    height: 300px;
+    padding: 20px 0 20px 0;
+    margin: 10px 0 10px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/*Declarem un estil per a les fotos web*/
+.arbre {
+    width: 30%;
+    display: block;
+    float: left;
+    margin: 0 1% 0 1%;
+    height: 100%;
+}
+/*Declarem un estil per a les fotos web*/
+video {
+    width: 30%;
+    height: 260px;
+    float: left;
+    margin: 0 1% 0 1%;
+    height: 100%;
+}
+/*Declarem un estil per a les fotos web*/
+.arbre2 {
+    width: 30%;
+    display: block;
+    float: left;
+    margin: 0 1% 0 1%;
+    height: 100%;
+}
+/*Declarem un estil per al text de la web*/
+.articles {
+    height: 300px;
+    padding: 20px;
+    margin: 20px 0 20px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/*Declarem un estil per als vincles de la web*/
+.links {
+    width: 70%;
+    float: left;
+}
+/*Declarem un estil per als vincles de la web*/
+
+.link1 {
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: aquamarine;
+    color: white;
+    margin: 20px 0 0 0;
+    border-radius: 30px;
+    padding: 10px;
+}
+/*Declarem un estil pel slideshow de la web*/
+
+.slideshow {
+    max-width: 25%;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    float: right;
+}
+/*Declarem un estil pel slideshow de la web*/
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+/*Declarem un estil per la navegació de la web*/
+li:hover {
+    background-color: palegreen;
+}
+/*Declarem un estil pel slideshow de la web*/
+a:hover {
+    color: black;
+}
+/*Declarem un estil pels titols 3 de la web*/
+h3 {
+    color: aliceblue;
+}
+/*Declarem un estil pel footer de la web*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: green;
+    color: white;
+    margin: 20px 0 0 0;
+    border-radius: 30px;
+    padding: 10px;
+}
